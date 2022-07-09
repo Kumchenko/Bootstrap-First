@@ -1,0 +1,62 @@
+/* ------ Specification ------ */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #6c7279;
+	padding: 0;
+    margin: 0;
+    font-size: 14px;
+	letter-spacing: 0em;
+    line-height: 1.5em;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 45px;
+    text-transform: uppercase;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+a, button, input {
+	transition: all 0.4s ease;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active
+{
+	outline: none;
+}
+
+.container-fluid_plain {
+	padding: 0;
+}
+
+/* ------ Header ------ */
+/* ------ First Section------ */
+/* ------ Second Section------ */
+/* ------ Third Section------ */
+/* ------ Forth Section------ */
+/* ------ Fifth Section------ */
+/* ------ Footer ------ */
