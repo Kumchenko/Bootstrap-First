@@ -375,6 +375,10 @@ button, button:hover, button:focus, button:active
     .header ul {
         justify-content: space-between;
     }
+
+    .review {
+        padding: 40px;
+    }
 }
 
 @media screen and (max-width: 540px){
@@ -428,6 +432,43 @@ button, button:hover, button:focus, button:active
         background-color: #f1f2fd;
     }
 
+    .worker {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 35px;
+    }
+
+    .worker__img {
+        width: 85%;
+        margin: auto;
+        display: block;
+    }
+    
+    .worker__name {
+        margin: 13px 0 4px;
+    }
+    
+    .worker__post {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    
+    .worker__desc {
+        margin-bottom: 12px;
+    }
+    
+    .socials a {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 22px;
+    }
+    
+    .socials a:not(:last-child) {
+        margin-right: 10px;
+    }
+
     .download {
         padding: 45px 0;
         text-align: center;
@@ -435,9 +476,5 @@ button, button:hover, button:focus, button:active
     
     .footer {
         padding: 40px 0;
-    }
-
-    .review {
-        padding: 40px;
     }
 }
