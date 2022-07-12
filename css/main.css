@@ -56,10 +56,15 @@ button, button:hover, button:focus, button:active
     font-weight: 700;
     font-size: 13px;
     padding: 13px 45px 12px 44px;
-    border: none;
+    border: 1px solid #e84545;
     border-radius: 2px;
     color: #fff;
     background-color: #e84545;
+}
+
+.button:hover {
+    color: #e84545;
+    background-color: transparent;
 }
 
 /* ------ Header ------ */
