@@ -1,0 +1,142 @@
+@media screen and (max-width: 1200px){
+    .header__link {
+        padding: 41px 15px 36px;
+        border-bottom: 2px solid transparent;
+        transition: border-bottom 0.4s ease;
+    }
+}
+
+@media screen and (max-width: 992px){
+    
+    .reviews__img {
+        height: 100%;
+    }
+
+    .review {
+        padding: 40px;
+    }
+    
+    .review__text {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    .header__logo-wrapper {
+        text-align: center;
+    }
+    
+    .header__logo {
+        font-size: 28px;
+        line-height: 1.7em;
+    }
+
+    .header__link {
+        padding: 10px 0;
+        border-bottom: 2px solid transparent;
+        transition: border-bottom 0.4s ease;
+    }
+    
+    .header ul {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 540px){
+
+    body {
+        font-size: 13px;
+    }
+    
+    h1 {
+        font-size: 36px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    h3 {
+        font-size: 17px;
+    }
+    
+    h4 {
+        font-size: 14px;
+    }
+
+    .header {
+        padding-bottom: 120px;
+    }
+
+    .header .offer {
+        margin-top: 70px;
+    }
+
+    .header .offer p {
+        font-size: 18px;
+    }
+
+    .benefits {
+        padding-top: 40px;
+    }
+
+    .benefit {
+        padding: 8px;
+    }
+
+    .works {
+        padding: 40px 0 65px;
+    }
+
+    .team {
+        padding: 60px 0;
+        background-color: #f1f2fd;
+    }
+
+    .worker {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 35px;
+    }
+
+    .worker__img {
+        width: 85%;
+        margin: auto;
+        display: block;
+    }
+    
+    .worker__name {
+        margin: 13px 0 4px;
+    }
+    
+    .worker__post {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    
+    .worker__desc {
+        margin-bottom: 12px;
+    }
+    
+    .socials a {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 22px;
+    }
+    
+    .socials a:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .download {
+        padding: 45px 0;
+        text-align: center;
+    }
+    
+    .footer {
+        padding: 40px 0;
+    }
+}
